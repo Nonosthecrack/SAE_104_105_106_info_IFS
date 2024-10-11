@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Paris2024-Variable';
+    src: url('Paris2024-Variable-Regular.eot');
+    src: url('Paris2024-Variable-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Paris2024-Variable-Regular.woff2') format('woff2'),
+        url('Paris2024-Variable-Regular.woff') format('woff'),
+        url('Paris2024-Variable-Regular.ttf') format('truetype'),
+        url('Paris2024-Variable-Regular.svg#Paris2024-Variable-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

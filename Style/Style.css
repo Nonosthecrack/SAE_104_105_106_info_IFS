@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Paris2024-Variable';
+    src: url('Font/Paris2024-Variable-Regular.eot');
+    src: url('Font/Paris2024-Variable-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Font/Paris2024-Variable-Regular.woff2') format('woff2'),
+         url('Font/Paris2024-Variable-Regular.woff') format('woff'),
+         url('Font/Paris2024-Variable-Regular.ttf') format('truetype'),
+         url('Font/Paris2024-Variable-Regular.svg#Paris2024-Variable-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    background-image: url('Image/Paris.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Paris2024-Variable';
+    background-size: cover;
+    background-attachment: fixed;
+    /*overflow-y: auto;*/
+
+}
+/*Header*/
+header {
+    border: 2px solid #cfc170;
+    background-color: black;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+}
+
+header img {
+    width: 8%;
+    height: 8%;
+    top: 15px;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-left: 0%;
+    display: block;
+}
+
+h1 {
+    color: #cfc170;
+    font-size: 500%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2.h1{
+    font-size:350%;
+    text-align: center;
+}
+img.logo{
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: auto;
+}
+
+header ul {
+    font-size: x-large;
+    word-spacing: 0.5em;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.section {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+
+.Listes {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Entreprises,
+#Associations,
+#Communes {
+    flex: 1;
+}
+
+/* Bouton */
+button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #cfc170;
+    font-family: 'Paris2024-Variable';
+    font-size: x-large;
+    border-radius: 5%;
+    text-align: center;
+}
+button.menu,
+button.Back {
+    width: 200px;
+    height: 50px;
+}
+button.bouton{
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+button.bouton:hover {
+    background-color:#6edbd7;
+    color: white;
+}
+
+button.Back {
+    font-family: 'Paris2024-Variable';
+    font-size: x-large;
+    border-radius: 5%;
+    text-align: center;
+    background-color: #cfc170;
+}
+button.menu:hover{
+        border: 2px solid white;
+}
+/*LIENS*/
+
+a.Src {
+    color: #cfc170;
+}
+
+a.Src:hover {
+    color: white;
+}
+div#Image{
+    padding-left: 38%;
+    padding-right: 38%;
+}
+
+/* Paragraphe */
+p {
+    text-align: justify;
+    padding-left: 1em;
+    font-size:x-large;
+}
+h2.Titre{
+    font-size: xx-large;
+}
+
+li {
+    font-size: x-large;
+}
+/* Information */
+div.Info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Info div {
+    align-items: end;
+    display: grid;
+    gap: 4px;
+    width: 100%;
+}
+/*DIV-INFO*/
+#Environnement,
+#Emploi,
+#Individu,
+#Economie {
+    width: 33%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background-size: cover;
+    overflow-y: auto;
+    border: 3px solid #341269;
+    
+}
+
+#Environnement {
+    background-image: url('Image/Environnement.jpg');
+}
+
+#Emploi {
+    background-image: url('Image/poleemploi_IA.jpg');
+}
+
+#Individu {
+    background-image: url('Image/economie.jpg');
+}
+
+#Economie {
+    background-image: url('Image/jeux.jpg');
+}
+
+/* IMG */
+#Modele,
+#Modele2{
+    width: 25%;
+    height: 25%;
+}
+#infographie{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+#lien{
+    color: white;
+}
+#lien:hover{
+    font-size: large;
+}
+
+#Modele2 {
+    float: right;
+    padding-right: 25%;
+}
+
+#Modele {
+    float: left;
+    padding-left: 25%;
+}
+
+#suite {
+    clear: both;
+}
+
+#carte {
+    margin-left: 1em;
+    float: right;
+    padding-left: 25%;
+    width: auto;
+    padding-right: 10%;
+    margin-left: -15%;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+    padding-top: 5px;
+    border: 2px solid #cfc170;
+    background-color: black;
+    color: #cfc170;
+}
+
+p.footer {
+    font-size: 105%;
+    text-align: center;
+}
+/*CSS Réalisé par ©Férault Noa*/
